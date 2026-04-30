@@ -251,10 +251,10 @@ nav a:hover::after, nav a.active::after { transform: scaleX(1); }
 
 .tl-img {
   margin-top: 1rem;
-  width: 100%;
+  display: block;
   max-width: 380px;
-  aspect-ratio: 4/3;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
   border-radius: 2px;
   filter: grayscale(15%);
   transition: filter 0.3s;
